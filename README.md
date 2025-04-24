@@ -1,6 +1,6 @@
 # 🚀 Next Full-Stack Template
 
-A ready-to-go full-stack starter using **Next.js** for the frontend and **Node.js + Express** for the backend.
+A ready-to-go full-stack starter using **Next.js** for the frontend, **Node.js + Express** for the backend and **better-sqlite3** for the database.
 
 This template is ideal for building full-stack apps quickly, with a clean separation of client and server logic. It's intentionally simple to allow for easy customization.
 
@@ -41,10 +41,10 @@ This template is ideal for building full-stack apps quickly, with a clean separa
 ```bash
 cd backend
 npm install
-node server.js
+npm start
 ```
 
-## Ignored files
+### Ignored files
 
 * node_modules/
 * .env && .env.local
